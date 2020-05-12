@@ -14,7 +14,7 @@ int main()
     }
 
     for (counter = 0; counter < (numberOfElements - 1); counter++) {
-        for (secondCounter = 0; secondCounter < (numberOfElements - counter - 1) secondCounter++) {
+        for (secondCounter = 0; secondCounter < (numberOfElements - counter - 1); secondCounter++) {
             if (array[secondCounter] > array[secondCounter + 1]) {  // decreasing order would use <
                 swap = array[secondCounter];
                 array[secondCounter] = array [secondCounter + 1];
@@ -26,7 +26,7 @@ int main()
     printf("The sorted list in ascending order:\n");
 
     for (counter = 0; counter < numberOfElements; counter++) {
-        printf("%d", array[counter]);
+        printf("%d\n", array[counter]);
     }
 
     return 0;
